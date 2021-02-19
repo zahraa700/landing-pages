@@ -1,0 +1,348 @@
+*{
+    box-sizing: border-box;
+    line-height: 1.7em;
+   
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+    
+}
+/*banner*/
+.banner{
+    background-image: url("../images/overlay.png"),url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    opacity: .8;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    
+    
+}
+.banner .home h2{
+    color: white;
+    float: left;
+    font-size: xx-large
+}
+ 
+.banner .home nav{
+    display: block;
+    float: right
+}
+.banner .home nav li {
+    float: left;
+    list-style: none;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: larger;
+    color: white;
+    text-transform: capitalize;
+    transition: all .5s ease-in-out;
+}
+.banner .home nav li:hover{
+    color: rgb(120, 192, 192);
+}
+/*get started*/
+.banner .head  h2{
+    text-align: center;
+    padding: 0 10px;
+    position: absolute;
+    font-size: xx-large;
+    letter-spacing: .5em;
+    top:180px;
+    left:380px;
+    color: white;
+}
+.banner .head  p{
+    text-align: center;
+    color: white;
+    font-size: large;
+    position: relative;
+    left: 29px;
+    top: 257px;
+    width: 667px;
+    line-height: 1.7em;
+}
+.banner .head button {
+    width:200px;
+    height: 75px;
+    background-color: rgb(197, 12, 12);
+    color: white;
+    border-radius: 20px;
+    font-size: larger;
+    text-transform: capitalize;
+    position: relative;
+    top: 270px;
+    left: -152px;
+    transition: all .5s ease-in-out;
+}
+
+.banner .head button:hover{background-color: rgb(186, 235, 72);color:black}
+
+/*middle p */
+.container{width :80%;
+    margin: auto;
+   height: 500px;
+}
+.container .info{
+    width: 50%;
+    float: left;
+    margin-top: 60px;
+}
+.container .info h2 {
+    font-size: xx-large;
+    font-weight: bolder;
+    vertical-align: baseline;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 0 40px;
+    color: rgb(51, 46, 46);
+}
+
+.container .info p{
+    margin:13px 0 1.5em 40px;
+  text-transform: capitalize;
+  color: rgb(104, 100, 100);
+  font-size: large;
+  margin-right: 20px;
+}
+/*right middle p*/
+.container .infop{
+    width: 50%;
+    margin-top: 60px;
+    float: left;
+}
+
+.container .infop div{
+    margin: 20px 30px;
+    color: rgb(104, 100, 100);
+
+
+}
+/*part 3 with 2pics*/
+.three{background-color: rgb(194, 191, 191);height: 900px;} 
+.three .head h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(51, 46, 46);
+    margin-top: 50px;
+    padding-top: 40px;
+  text-transform: capitalize;
+}
+
+.three .head p {
+    text-align: center;
+    font-size: large;
+    color: rgb(104, 100, 100);
+margin-bottom: 40px;
+}
+.three .pic div{width:50%;
+    display: block;
+    float: left;
+  
+}
+.three .pic img {width:85%;
+    display: block;
+    margin: 50px 50px 0 50px;
+    padding: 0;
+    border: 0;
+    
+}
+
+.three .pic h2{
+    display: block;
+    padding: 0px 11px 0px 18px;
+    margin: 0 49px 0px 48px;
+    background-color: white;
+    border:  solid grey;
+    border-width: 0 1px 1px 1px;
+
+}
+/*2 buttons*/
+.three .buttons{
+    position: relative;
+    left: 440px;
+    top: 62px;
+    font-weight: bolder;
+}
+.three button{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 75px;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+}
+.three .buttons #one{
+    background-color: rgb(121, 11, 48);
+    color: black;
+     
+}
+.three .buttons #one:hover{background-color: palevioletred;}
+.three .buttons #two{background-color: black;color: white;}
+.three .buttons #two:hover{background-color: rgb(44, 43, 43);}
+/*4pics*/
+.opp{height: 500px;}
+.opp .head h1{
+    color: rgb(48, 44, 44);
+    margin-top:30px;
+    margin-left:30px
+}
+.opp .head p{
+    font-size: large;
+    color: grey;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.opp .feature {
+    width: 50%;
+    float: left;
+  
+}
+/*4pics*/
+.opp .feature .img {
+    width:50%;
+    float: right;
+}
+.opp .feature img{
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.opp .feature .content h3{
+    margin-left: 30px;
+    color: rgb(49, 48, 48)  ;
+}
+.opp .feature .content p{
+    margin: 20px;
+    color: grey;
+}
+.opp .feature .img1 {
+    width:50%;
+    float: left;
+}
+.opp .feature .content1{float: right;width: 50%;}
+.opp .feature .content1 h3{
+    margin-left: 30px;
+    color: rgb(49, 48, 48)  ;
+}
+.opp .feature .content1 p{
+    margin:0;
+    color: grey;
+}
+/*single pic right*/
+.moon{margin-top: 30px;
+height: 300px;}
+.moon >div{width: 50%;
+   float: left;
+}
+.moon .feature{
+    width: 50%;
+    float: right;
+    margin-top: 30px;
+}
+.moon .feature img{
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    float: right;
+    margin-left: 5px;
+    
+}
+.moon .feature .content {
+    width: 50%;
+    float: left;
+}
+.moon .feature .content p{ margin:0;
+    color: grey;
+}
+.moon .feature .content h3{  margin-left: 30px;
+    color: rgb(49, 48, 48)  ;
+}
+/*single pic left*/
+.sun {margin-top: 30px; height: 300px;}
+.sun div{float: right; width: 50%;}
+.sun .feature{
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+}
+.sun .feature img{
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    float: left;
+    margin-left: 5px;
+}
+.sun .feature .content {
+    width: 50%;
+    float: right
+}
+.sun .feature .content p{
+    margin:0;
+    color: grey;
+}
+.sun .feature .content h3{  margin-left: 30px;
+    color: rgb(49, 48, 48)  ;
+}
+/*banner coninue*/
+.banner h1{
+    margin-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bolder;
+}
+.banner p {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.banner button{
+    width:200px;
+    height: 75px;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 550px;
+    border-radius: 20px;
+    background-color: rgb(197, 12, 12);
+    color: white;
+    transition: all .5s ease-in-out;
+
+}
+ .banner button:hover{
+     color: black;
+     background-color: palevioletred;
+ }
+
+ /*footer*/
+ .container .icon{
+     list-style: none;
+     margin-left: 50px;
+ }
+ .container .icon li{
+     display: inline-block;
+     margin: 64px 20px 38px 101px;    
+     color: gray; 
+     transition: all .5s ease-in-out;
+ }
+ .container .copy{list-style: none;
+margin-left: 50px;}
+.container .copy li{
+    display: inline-block;
+    margin:10px 48px 20px 42px ;
+    color: grey;
+    transition: all .5s ease-in-out;
+}
+.container .copy li:hover{color: black;}
+.container .icon i:hover{color: black;}
+.container .copy li:nth-child(2){
+    border-left: 1px solid gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid gray;
+}
